@@ -1,6 +1,4 @@
-# Frontend Mentor - Advice Generator App Solution
-
-This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db).
+# Dad Joke Generator App
 
 ## Table of contents
 
@@ -27,13 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/advice-generator-app-desktop.png)
-![](./images/advice-generator-app-mobile.png)
+![](./images/dad-joke-generator-app-desktop.png)
+![](./images/dad-joke-generator-app-mobile.png)
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/wesleyjacoby/Advice-Generator-App)
-- Live Site URL: [GitHub Pages](https://wesleyjacoby.github.io/Advice-Generator-App/)
+- Solution URL: [GitHub](https://github.com/wesleyjacoby/Dad-Joke-Generator-App)
+- Live Site URL: [GitHub Pages](https://wesleyjacoby.github.io/Dad-Joke-Generator-App/)
 
 ## My process
 
@@ -46,7 +44,7 @@ Users should be able to:
 
 ### What I learned
 
-This was my first time using an API and I found it relatively easy after watching a lot of videos. I opted to use [Axios](https://github.com/axios/axios), which makes things a lot easier.
+This was my second time using an API and I found it relatively easy after watching a lot of videos. I opted to use [Axios](https://github.com/axios/axios), which makes things a lot easier. This did use a header as well for the API call.
 
 ### Continued development
 
