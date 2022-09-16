@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(41, 100%, 66%);
+    --gray-blue: hsl(217, 19%, 38%);
+    --dark-gray-blue: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0rem 1rem 0rem 1rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--light-cyan);
+    line-height: 2.0625rem;
+    background-color: var(--dark-blue);
+}
+
+.main-container {
+    position: relative;
+    max-width: 33.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dark-gray-blue);
+    box-shadow: 1.875rem 3.125rem 5rem rgba(0, 0, 0, 0.100202);
+    border-radius: 0.625rem;
+}
+
+.advice-container {
+    margin-top: 2.5rem;
+    font-size: 0.6875rem;
+    line-height: 0.9375rem;
+    letter-spacing: 0.21875rem;
+    color: var(--neon-green);
+    margin-bottom: 1.5rem;
+}
+
+.quote-container {
+    text-align: center;
+    margin: 0rem 1.5rem 1.5rem 1.5rem;
+}
+
+.desktop-divider {
+    display: none;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: var(--neon-green);
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0rem 0rem 2.5rem #ffdf53;
+}
+
+.button-container {
+    transform: translateY(50%);
+}
+
+.dice {
+    width: 150%;
+    padding: 1.25rem;
+}
+
+/* --MEDIA QUERIES-- */
+
+@media screen and (min-width: 540px) {
+    body {
+        margin: 0rem
+    }
+
+    .advice-container {
+        margin-top: 3rem;
+        font-size: 0.8125rem;
+        line-height: 1.125rem;
+        letter-spacing: 0.25625rem;
+    }
+
+    .quote-container {
+        text-align: center;
+        font-size: 1.75rem;
+        line-height: 2.375rem;
+        letter-spacing: -0.3px;
+        margin: 0rem 3rem 2.5rem 3rem;
+    }
+
+    .pattern-divider {
+        margin-bottom: 0.5rem;
+    }
+
+    .mobile-divider {
+        display: none;
+    }
+
+    .desktop-divider {
+        display: block;
+    }
+}
